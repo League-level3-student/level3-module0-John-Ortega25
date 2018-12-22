@@ -15,6 +15,7 @@ class CalculatorTest {
 		assertEquals(test.sum(-2, -2), -4);
 		//fail("Not yet implemented");
 	}
+	@Test 
 	void testFloat() {
 		Calculator test= new Calculator();
 		assertEquals(test.floatSum(1.50,1.50), 3.0);

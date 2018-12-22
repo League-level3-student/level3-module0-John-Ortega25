@@ -3,9 +3,22 @@ package _03_More_Array_Fun;
 import java.util.Random;
 
 public class MoreArrayFun {
-	//1. Create a main method to test the other methods you write.
 	
-	
+
+	public static String printAll(String[] names) {
+		String namePrint = "";
+		int nameLength = names.length-1;
+		for (int i = 0; i < names.length; i++) {
+			if (i!= nameLength) {
+				namePrint = namePrint + names[i] + " ";
+			}
+			else {
+				namePrint = namePrint + names[i];
+			}
+		}
+		// TODO Auto-generated method stub
+		return namePrint;
+	}
 	
 	//2. Write a method that takes an array of Strings and prints all the Strings in the array.
 	
