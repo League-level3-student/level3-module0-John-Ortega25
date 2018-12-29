@@ -1,9 +1,5 @@
 package _03_More_Array_Fun;
 
-import java.util.Random;
-
-import javax.swing.JOptionPane;
-
 public class MoreArrayFun {
 	
 
@@ -18,11 +14,9 @@ public class MoreArrayFun {
 				namePrint = namePrint + names[i];
 			}
 		}
-		// TODO Auto-generated method stub
 		return namePrint;
 	}
 	
-	//3. Write a method that takes an array of Strings and prints all the Strings in the array in reverse order.
 	public static String reverseOrder(String[] names) {
 		String namePrint = "";
 		for (int i = names.length-1; i >= 0 ; i--) {
@@ -35,9 +29,6 @@ public class MoreArrayFun {
 		}
 		return namePrint;
 	}
-	
-	
-	//4. Write a method that takes an array of Strings and prints every other String in the array.
 	public static String everyOther(String[] names) {
 		String namePrint = "";
 		for (int i = 0; i < names.length; i++) {
@@ -49,9 +40,4 @@ public class MoreArrayFun {
 		}
 		return namePrint;
 	}
-	
-	//5. Write a method that takes an array of Strings and prints all the Strings in the array
-	//   in a completely random order. Almost every run of the program should result in a different order.
-	
-	
 }
